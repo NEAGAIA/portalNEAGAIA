@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Photo = ({ src }) => {
   return (
-    <div className="w-full h-full relative">
+    <div className="w-full h-full relative mt-20 sm:mt-64 md:mt-40">
         <motion.div 
         initial={{ opacity: 0 }} 
         animate={{
